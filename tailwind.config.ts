@@ -10,6 +10,12 @@ export default {
 	],
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ['Open Sans', 'system-ui', 'sans-serif'],
+				lora: ['Lora'],
+				fira: ['Fira Sans'],
+				work: ['Work Sans']
+			},
 			colors: {
 				background: 'hsl(var(--background))',
 				darkBackground: 'hsl(var(--dark-background))',
