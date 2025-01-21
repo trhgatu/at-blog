@@ -94,8 +94,8 @@ const CharacterCard = ({
 
 const BackgroundSection: React.FC = () => {
   return (
-    <section className="relative flex items-center justify-center overflow-hidden">
-      <div className="relative z-10 text-center px-8 max-w-3xl flex flex-col items-center">
+    <section className="relative flex items-center justify-center overflow-hidden py-10 ">
+      <div className="relative z-10 text-center px-10 max-w-3xl flex flex-col items-center">
         <DotLottieReact src='https://lottie.host/8daeb668-7431-49ae-98a8-eb775e2dfc52/6prmrBwtfu.lottie'
           loop
           autoplay
@@ -104,7 +104,7 @@ const BackgroundSection: React.FC = () => {
           những câu chuyện vượt thời gian. Hãy để nơi đây trở thành góc nhỏ để ta viết nên cảm xúc, sẻ chia thấu hiểu,
           và kết nối những tâm hồn đồng điệu trên hành trình khám phá ý nghĩa cuộc sống. </p>
       </div>
-      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
+      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden px-10">
         <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((character) => (
             <CharacterCard key={character.name} {...character} />
