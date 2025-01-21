@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <div className=" bg-[#f9f5ea]">
+        <div className=" bg-[#f9f5ea] container mx-auto border rounded-md">
           <BackgroundSection />
         </div>
         <div className="mx-auto container">
