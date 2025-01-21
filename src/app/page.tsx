@@ -1,14 +1,16 @@
-import Image from "next/image";
 import BackgroundSection from "./main/home/sections/background-section";
 import FeaturedSection from "./main/home/sections/featured-section";
-
+import PostsSection from "./main/home/sections/posts-section";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="min-h-screen mx-auto container">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <BackgroundSection/>
-        <FeaturedSection/>
+        <div className="container mx-auto">
+          <BackgroundSection />
+        </div>
+        <FeaturedSection />
+        <PostsSection />
       </main>
     </div>
   );

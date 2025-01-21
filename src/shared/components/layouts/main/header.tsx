@@ -4,7 +4,7 @@ import { ModeToggle } from "../../darkmode-toggle";
 
 const Header = () => {
   return (
-    <header className="bg-transparent py-4">
+    <header className=" py-4 bg-white dark:text-black">
       <div className="container mx-auto flex items-center justify-between px-4">
         <div className="flex items-center">
           <span className="text-2xl font-bold">AT BLOG</span>

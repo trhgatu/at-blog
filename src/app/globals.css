@@ -7,11 +7,12 @@
 @tailwind utilities;
 
 body {
-
+  background-color: var(--background);
 }
 
 @layer base {
   :root {
+    /* --background: #f9f5ea; */
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
